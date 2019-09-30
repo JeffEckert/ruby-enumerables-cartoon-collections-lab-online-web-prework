@@ -1,6 +1,6 @@
 def roll_call_dwarves# code an argument here
   # Your code here
-  %w(Doc, Dopey, Bashful, Grumpy)
+  %w(Doc, Dopey, Bashful, Grumpy).each_item_with_index
 end
 
 def summon_captain_planet# code an argument here
